@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import Navbar from './Navbar';
+import styles from './Cases.module.css'
 
 const State = () => {
   const result = useSelector((state) => state.data);
@@ -18,13 +19,13 @@ const State = () => {
       {
       result.length === 0 ? ''
         : (
-          <div className="statistics">
+          <div className={styles.statistics}>
             <h1>{state}</h1>
-            <div>
+            <div className={styles.cases}>
               <ul>
-                <li>confirmedCases</li>
-                <li>Population</li>
-                <li>discharged</li>
+                <li>Confirmed Cases</li>
+                <li>Cases on Admission</li>
+                <li>Discharged</li>
                 <li>Deaths</li>
               </ul>
               <ul>
