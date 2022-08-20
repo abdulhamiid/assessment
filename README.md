@@ -16,13 +16,13 @@
 - HTML, CSS, Javascript
 - Webpack, Stylelint, ESlint, React JS, React Router, Redux, Github Actions
 
-To get a local copy up and running follow these simple example steps.
-
 ## Live Demo
 
 🔥 [Click here](https://rococo-zuccutto-4fa728.netlify.app) 🔥
 
 ## Screenshots
+
+To get a local copy up and running follow these simple example steps.
 
 ### Clone this repository
 
@@ -60,6 +60,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues)
 
+### To Contribute to this project
 1. Fork the Project
 2. Create your Feature Branch
 ```
