@@ -2,6 +2,7 @@
   margin: 30px 0;
   text-align: center;
 }
+
 .homepageList {
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@
   font-weight: 600;
 }
 
-.homepageList li:nth-child(even) svg{
+.homepageList li:nth-child(even) svg {
   color: rgb(2, 80, 2);
 }
 
@@ -46,6 +47,7 @@
     overflow: auto;
     margin: 0;
   }
+
   .sectionTwo h2 {
     margin: 30px 0;
   }

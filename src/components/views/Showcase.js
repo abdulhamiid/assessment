@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './Showcase.module.css';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import styles from './Showcase.module.css';
 import { fetchLoadedData } from '../redux/loadApi';
 import flag from './assets/images/flag.png';
 
@@ -19,12 +19,14 @@ const Showcase = () => {
   return (
     <div className={styles.showcase}>
       <header className={styles.header}>
-        <img src={flag} />
+        <img src={flag} alt="flag_ng" />
         <h1>NIGERIA</h1>
       </header>
-      <p>This data on this website is on the corona virus pandemic in Nigeria showing the statistics for all states.</p>
+      <p>
+        This data on this website is on the corona virus pandemic in Nigeria showing the statistics for all states
+      </p>
       <h2>Country Statistics</h2>
-    {
+      {
       result.length === 0 ? <h1>Loading...</h1>
         : (
           <div className={styles.countryStat}>
@@ -43,8 +45,8 @@ const Showcase = () => {
           </div>
         )
     }
-  </div>
-  )
-}
+    </div>
+  );
+};
 
 export default Showcase;

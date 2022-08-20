@@ -7,16 +7,15 @@ import styles from './States.module.css';
 const States = () => {
   const result = useSelector((state) => state.data);
   const { states } = result;
-  console.log(states)
   return (
     <section className={styles.sectionTwo}>
-      <h2>States Statistics</h2>
+      <h2>All States</h2>
       <ul className={styles.homepageList}>
-      <li>
-        <p>States</p>
-        <p>Result</p>
-      </li>
-      {
+        <li>
+          <p>States</p>
+          <p>Result</p>
+        </li>
+        {
         result.length === 0 ? ''
           : states.map(
             (state) => (
@@ -29,7 +28,7 @@ const States = () => {
             ),
           )
       }
-    </ul>
+      </ul>
     </section>
   );
 };
