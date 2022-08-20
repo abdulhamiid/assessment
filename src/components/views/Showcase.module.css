@@ -54,3 +54,22 @@
   background-color: #fff;
   color: green;
 }
+
+@media (min-width: 768px) {
+  .showcase {
+    width: 60%;
+  }
+
+  .header {
+    align-items: flex-start;
+  }
+
+  .header img {
+    width: 60px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+}

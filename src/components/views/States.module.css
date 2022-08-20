@@ -38,3 +38,15 @@
   font-weight: 700;
   font-size: 22px;
 }
+
+@media (min-width: 768px) {
+  .sectionTwo {
+    width: 30%;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+  }
+  .sectionTwo h2 {
+    margin: 30px 0;
+  }
+}

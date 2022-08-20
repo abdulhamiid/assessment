@@ -4,8 +4,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchLoadedData } from '../redux/loadApi';
 import flag from './assets/images/flag.png';
 
+let isFetching = true;
+
 const Showcase = () => {
-  let isFetching = true;
   const dispatch = useDispatch();
   if (isFetching === true) {
     isFetching = false;
