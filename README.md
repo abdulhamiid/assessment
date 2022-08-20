@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live demo](https://react-capstone-hamid.herokuapp.com/)
+🔥 [Click here](https://rococo-zuccutto-4fa728.netlify.app) 🔥
 
 ## Screenshots
 
@@ -54,7 +54,7 @@ Run ```npm start```
 - Twitter: [@abdulhamid_adio](https://twitter.com/abdulhamid_adio)
 - LinkedIn: [Adio Abdulhamid](https://linkedin.com/)
 
-## Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
