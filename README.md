@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-🔥 [Click here](https://rococo-zuccutto-4fa728.netlify.app) 🔥
+🔥 [Click here](https://ncdcng.herokuapp.com/) 🔥
 
 ## Screenshots
 
