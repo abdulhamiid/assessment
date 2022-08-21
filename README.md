@@ -80,6 +80,10 @@ git push -u origin feature/newFeature
 
 Give a ⭐️ if you like this project!
 
+# Acknowledgments
+
+covid-19 API [visit](https://covidnigeria.herokuapp.com/api)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
