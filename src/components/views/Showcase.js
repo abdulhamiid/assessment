@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from './Showcase.module.css';
 import { fetchLoadedData } from '../redux/loadApi';
-import flag from './assets/images/flag.png';
+import flag from './assets/images/flag-nigeria.jpg';
 
 let isFetching = true;
 
@@ -23,11 +24,11 @@ const Showcase = () => {
         <h1>NIGERIA</h1>
       </header>
       <p>
-        This data on this website is on the corona virus pandemic in Nigeria showing the statistics for all states
+        This data on this website shows statistics of the corona virus pandemic in Nigeria showing the details for all states
       </p>
       <h2>Country Statistics</h2>
       {
-      result.length === 0 ? <h1>Loading...</h1>
+      result.length === 0 ? <p className={styles.load}>Loading data...</p>
         : (
           <div className={styles.countryStat}>
             <ul>
