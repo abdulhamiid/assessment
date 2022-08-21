@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import Navbar from './Navbar';
 import styles from './Cases.module.css';
 
 const State = () => {
@@ -15,7 +14,6 @@ const State = () => {
 
   return (
     <>
-      <Navbar />
       {
       result.length === 0 ? ''
         : (
