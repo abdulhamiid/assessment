@@ -1,17 +1,17 @@
 .blue {
-  background-color:   #0492c2
+  background-color: #0492c2;
 }
 
 .yellow {
-  background-color: #ffc82d
+  background-color: #ffc82d;
 }
 
 .green {
-  background-color: #138750
+  background-color: #138750;
 }
 
 .red {
-  background-color: #ff0000
+  background-color: #f00;
 }
 
 .showcase {
@@ -58,12 +58,20 @@
 }
 
 .countryStat div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 48.5%;
   height: 100px;
   margin: 6px 0;
   border-radius: 9px;
   color: #fff;
   padding: 15px;
+}
+
+.countryStat div:hover {
+  box-shadow: 4px 8px 15px #ccc;
 }
 
 .countryStat div p {
@@ -73,6 +81,7 @@
 
 .showcase div > h4 {
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -83,6 +92,7 @@ svg {
 .showcase div > h4 span {
   font-size: 24px;
 }
+
 @media (min-width: 768px) {
   .showcase {
     width: 60%;
@@ -100,7 +110,7 @@ svg {
   .countryStat {
     justify-content: space-around;
   }
-  
+
   .countryStat div {
     width: 40%;
     margin: 12px 0;
@@ -110,13 +120,12 @@ svg {
 
   .countryStat div p {
     font-weight: 600;
-    font-size: 18px;
   }
-  
+
   svg {
     font-size: 35px;
   }
-  
+
   .showcase div > h4 span {
     font-size: 30px;
   }
