@@ -82,7 +82,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
-covid-19 API [visit](https://covidnigeria.herokuapp.com/api)
+covid-19 API [visit here](https://covidnigeria.herokuapp.com/api)
 
 ## 📝 License
 

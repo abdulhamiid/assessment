@@ -25,7 +25,7 @@ const Showcase = () => {
         <h1>COVID-19 NIGERIA</h1>
       </header>
       <p>
-      The coronavirus disease (COVID-19) is caused by a new strain of coronavirus (SARS-CoV-2) that has not been previously identified in humans. It was first reported to WHO on the 31st of December, 2019 in Wuhan, China.
+        The coronavirus disease (COVID-19) is caused by a new strain of coronavirus (SARS-CoV-2) that has not been previously identified in humans. It was first reported to WHO on the 31st of December, 2019 in Wuhan, China.
       </p>
       <h2>Country Statistics</h2>
       {
