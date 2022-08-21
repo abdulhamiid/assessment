@@ -6,7 +6,7 @@
 
 .load {
   letter-spacing: 9px;
-  color: rgb(0, 59, 0)
+  color: rgb(0, 59, 0);
 }
 
 .showcase > p {
@@ -51,7 +51,6 @@
 .countryStat ul li {
   text-align: left;
   width: 100%;
-  padding: 20px;
   background-color: green;
   color: #fff;
   font-size: 20px;
