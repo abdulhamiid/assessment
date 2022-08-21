@@ -21,7 +21,7 @@ const Showcase = () => {
     <div className={styles.showcase}>
       <header className={styles.header}>
         <img src={flag} alt="flag_ng" />
-        <h1>NIGERIA</h1>
+        <h1>COVID-19 NIGERIA</h1>
       </header>
       <p>
         This data on this website shows statistics of the corona virus pandemic in Nigeria showing the details for all states

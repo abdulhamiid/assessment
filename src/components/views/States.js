@@ -9,7 +9,7 @@ const States = () => {
   const { states } = result;
   return (
     <section className={styles.sectionTwo}>
-      <h2>All States</h2>
+      <h2>Confirmed Cases by State</h2>
       <ul className={styles.homepageList}>
         <li>
           <p>States</p>
