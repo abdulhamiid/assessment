@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { FaViruses } from 'react-icons/fa';
 import styles from './Showcase.module.css';
 import { fetchLoadedData } from '../redux/loadApi';
 import flag from './assets/images/flag-nigeria.jpg';
@@ -24,25 +25,41 @@ const Showcase = () => {
         <h1>COVID-19 NIGERIA</h1>
       </header>
       <p>
-        This data on this website shows statistics of the corona virus pandemic in Nigeria showing the details for all states
+        The coronavirus disease (COVID-19) is caused by a new strain of coronavirus (SARS-CoV-2) that has not been previously identified in humans. It was first reported to WHO on the 31st of December, 2019 in Wuhan, China.
       </p>
       <h2>Country Statistics</h2>
       {
       result.length === 0 ? <p className={styles.load}>Loading data...</p>
         : (
           <div className={styles.countryStat}>
-            <ul>
-              <li>Deaths</li>
-              <li>Discharged</li>
-              <li>Total Active Cases</li>
-              <li>Total Confirmed Cases</li>
-            </ul>
-            <ul>
-              <li>{death.toLocaleString()}</li>
-              <li>{discharged.toLocaleString()}</li>
-              <li>{totalActiveCases.toLocaleString()}</li>
-              <li>{totalConfirmedCases.toLocaleString()}</li>
-            </ul>
+            <div className={styles.blue}>
+              <p>Total Confirmed Cases</p>
+              <h4>
+                <FaViruses />
+                <span>{totalConfirmedCases.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.yellow}>
+              <p>Total Active Cases</p>
+              <h4>
+                <FaViruses />
+                <span>{totalActiveCases.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.green}>
+              <p>Discharged</p>
+              <h4>
+                <FaViruses />
+                <span>{discharged.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.red}>
+              <p>Deaths</p>
+              <h4>
+                <FaViruses />
+                <span>{death.toLocaleString()}</span>
+              </h4>
+            </div>
           </div>
         )
     }

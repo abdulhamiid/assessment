@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-🔥 [Click here](https://rococo-zuccutto-4fa728.netlify.app) 🔥
+🔥 [Click here](https://ncdcng.herokuapp.com/) 🔥
 
 ## Screenshots
 
@@ -79,6 +79,10 @@ git push -u origin feature/newFeature
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+covid-19 API [visit here](https://covidnigeria.herokuapp.com/api)
 
 ## 📝 License
 

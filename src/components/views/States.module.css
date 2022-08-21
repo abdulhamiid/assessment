@@ -18,6 +18,11 @@
   background-color: green;
   color: #f4f4f4;
   padding: 20px;
+  opacity: 0.9;
+}
+
+.homepageList li:hover {
+  opacity: 1;
 }
 
 .homepageList li svg {

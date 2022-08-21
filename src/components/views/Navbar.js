@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ImHome3 } from 'react-icons/im';
+import { RiArrowGoBackFill } from 'react-icons/ri';
 import { FiSettings } from 'react-icons/fi';
 import styles from './Navbar.module.css';
 
@@ -9,7 +9,7 @@ const Navbar = () => (
     <ul>
       <li>
         <Link to="/" exact="true">
-          <ImHome3 />
+          <RiArrowGoBackFill />
         </Link>
       </li>
       <li>

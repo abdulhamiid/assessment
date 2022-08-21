@@ -1,3 +1,19 @@
+.blue {
+  background-color: #0492c2;
+}
+
+.yellow {
+  background-color: #ffc82d;
+}
+
+.green {
+  background-color: #138750;
+}
+
+.red {
+  background-color: #f00;
+}
+
 .showcase {
   width: 97%;
   margin: auto;
@@ -35,31 +51,46 @@
 }
 
 .countryStat {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  width: 100%;
-  height: 100%;
-  background-color: #f5f5f5;
-  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.countryStat ul {
+.countryStat div {
   display: flex;
   flex-direction: column;
-}
-
-.countryStat ul li {
-  text-align: left;
-  width: 100%;
-  background-color: green;
+  justify-content: center;
+  align-items: center;
+  width: 48.5%;
+  height: 100px;
+  margin: 6px 0;
+  border-radius: 9px;
   color: #fff;
-  font-size: 20px;
   padding: 15px;
 }
 
-.countryStat ul li:nth-child(even) {
-  background-color: #fff;
-  color: green;
+.countryStat div:hover {
+  box-shadow: 4px 8px 15px #ccc;
+}
+
+.countryStat div p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.showcase div > h4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+svg {
+  font-size: 30px;
+}
+
+.showcase div > h4 span {
+  font-size: 24px;
 }
 
 @media (min-width: 768px) {
@@ -74,5 +105,28 @@
 
   .header h1 {
     font-size: 40px;
+  }
+
+  .countryStat {
+    justify-content: space-around;
+  }
+
+  .countryStat div {
+    width: 40%;
+    margin: 12px 0;
+    border-radius: 9px;
+    padding: 20px;
+  }
+
+  .countryStat div p {
+    font-weight: 600;
+  }
+
+  svg {
+    font-size: 35px;
+  }
+
+  .showcase div > h4 span {
+    font-size: 30px;
   }
 }
