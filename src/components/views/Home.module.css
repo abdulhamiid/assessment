@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 2fr;
+    flex-direction: row-reverse;
+  }
+}
