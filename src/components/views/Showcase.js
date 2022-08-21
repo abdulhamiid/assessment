@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { FaViruses } from 'react-icons/fa';
 import styles from './Showcase.module.css';
 import { fetchLoadedData } from '../redux/loadApi';
 import flag from './assets/images/flag-nigeria.jpg';
@@ -31,18 +32,34 @@ const Showcase = () => {
       result.length === 0 ? <p className={styles.load}>Loading data...</p>
         : (
           <div className={styles.countryStat}>
-            <ul>
-              <li>Deaths</li>
-              <li>Discharged</li>
-              <li>Total Active Cases</li>
-              <li>Total Confirmed Cases</li>
-            </ul>
-            <ul>
-              <li>{death.toLocaleString()}</li>
-              <li>{discharged.toLocaleString()}</li>
-              <li>{totalActiveCases.toLocaleString()}</li>
-              <li>{totalConfirmedCases.toLocaleString()}</li>
-            </ul>
+            <div className={styles.blue}>
+              <p>Total Confirmed Cases</p>
+              <h4>
+                <FaViruses />
+                <span>{totalConfirmedCases.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.yellow}>
+              <p>Total Active Cases</p>
+              <h4>
+                <FaViruses />
+                <span>{totalActiveCases.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.green}>
+              <p>Discharged</p>
+              <h4>
+                <FaViruses />
+                <span>{discharged.toLocaleString()}</span>
+              </h4>
+            </div>
+            <div className={styles.red}>
+              <p>Deaths</p>
+              <h4>
+                <FaViruses />
+                <span>{death.toLocaleString()}</span>
+              </h4>
+            </div>
           </div>
         )
     }
